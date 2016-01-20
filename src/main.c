@@ -3,15 +3,6 @@
 int main(void) {
 	srand(time(NULL));
 	sudokuGrid game;
-	/*int i;
-	
-	for (i = 0; i < 5; i++) {
-		printf("\n\nBoard %i:\n",i);
-		resetBoard(&game);
-		generateUniqueBoard(&game);
-		printBoard(&game);
-	}*/
-	
 	char input;
 	
 	//generate the first game
