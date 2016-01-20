@@ -10,7 +10,7 @@ src_dir = ../src
 out_dir = ../output
 out_name = sudoku
 
-objects = sudoku.o
+objects = main.o sudoku.o
 
 $(out_dir)/$(out_name) : $(objects)
 	cc -o $(out_dir)/$(out_name) $(objects) $(libs)
